@@ -1,4 +1,4 @@
-# AWS主機安裝 php-fpm(PHP 5.6)
+# EC2 安裝 php-fpm(PHP 5.6)
 
 AWS主機安裝，有很多網路的教學，基本上照著amazon官方網站的教學就可以了。
 
