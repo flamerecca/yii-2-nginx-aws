@@ -21,3 +21,9 @@ mv composer.phar /usr/local/sbin/composer
 
 完畢之後，就可以用```composer --version```，看看我們是否成功的將composer移動到正確的地方囉
 
+或者也可以參考我寫的shell script
+https://gist.github.com/flamerecca/0e0546b40c4223e60232566bf5919ae1
+
+下載到AWS主機裡面，執行```sh composer.sh```
+就可以安裝完成囉！
+
