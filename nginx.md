@@ -4,9 +4,11 @@
 
 > yum install nginx
 
-然後nginx就安裝好了。此時執行
+然後nginx就安裝好了。
 
-但是這時候nginx還沒與php-fpm連線，所以無法執行php程式。
+這時候進入網頁，會看到歡迎頁面。
+
+但是這時候的nginx還沒與php-fpm連線，所以無法執行php程式。
 
 這時候我們要編輯nginx.conf檔案，讓php-fpm可以正確處理php檔案。
 
