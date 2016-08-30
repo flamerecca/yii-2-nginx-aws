@@ -2,7 +2,7 @@
 
 首先，執行
 
-> yum install nginx
+```yum install nginx```
 
 然後nginx就安裝好了。
 
@@ -15,15 +15,17 @@
 首先執行
 
 以root身份，執行
->vim /etc/nginx/nginx.conf
+```vim /etc/nginx/nginx.conf```
 
 以編輯nginx.conf檔，加入
->        location ~ \.php$ {
+```bash
+        location ~ \.php$ {
             fastcgi_pass   127.0.0.1:9000;
             fastcgi_index  index.php;
             fastcgi_param  SCRIPT_FILENAME  $php_root$fastcgi_script_name;
             include        fastcgi_params;
-        }
+        }     
+```
 
 
 
