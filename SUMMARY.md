@@ -5,7 +5,8 @@
 * [EC2 安裝 nginx](nginx.md)
 * [EC2 安裝 composer](composer.md)
 * [EC2 主機與yii2安裝.sh](all-in-one.md)
-* [安裝 codecept](/codecept.md)
+* codecept
+  * [安裝 codecept](/codecept/codecept.md)
 
 
 
